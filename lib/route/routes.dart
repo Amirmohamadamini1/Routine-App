@@ -7,6 +7,6 @@ import 'names.dart';
 
 Map<String, Widget Function(BuildContext)> routes = {
   Screens.root: (context) => const Splash(),
-  Screens.mainScreen: (context) => HomeScreen(),
+  Screens.mainScreen: (context) => ProfileScreen(),
   Screens.signScreen: (context) => ProfileScreen(),
 };
